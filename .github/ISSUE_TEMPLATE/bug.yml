@@ -22,7 +22,7 @@ body:
       label: Steps to reproduce
       description: >
         How do you trigger this bug? Please walk us through it step by step.
-      placeholder: | Link to your example here
+      placeholder:  Link to your example here
     validations:
       required: false
 
