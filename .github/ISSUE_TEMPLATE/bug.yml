@@ -22,10 +22,7 @@ body:
       label: Steps to reproduce
       description: >
         How do you trigger this bug? Please walk us through it step by step.
-      placeholder: |
-        1. Go to [...]
-        2. Click on [...]
-        3. See error [...]
+      placeholder: 111111111111
     validations:
       required: false
 
