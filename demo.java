@@ -1,5 +1,4 @@
-111111111222222224444444466666
-package demo;
+package demo01;
 
 import org.junit.Test;
 
