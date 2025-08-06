@@ -1,0 +1,35 @@
+title:  "PR模板标题"
+labels:  ["bug"]
+assignees: 'yinlin'
+
+body:
+
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: 故障现象描述
+      placeholder: 
+    validations:
+      required: true  
+
+  - type: dropdown
+    id: affected-packages
+    attributes:
+      label: 负责团队
+      options:
+        - 用户中心
+        - 项目中心
+        - 主站搜索
+        - 用户体验
+        - 其它
+      multiple: false
+    validations:
+      required: true
+
+
+  - type: markdown
+    attributes:
+      value: |
+        ##
+
+        项目组与用户就用户数据迁移事宜，经友好协商，达成如下协议：
